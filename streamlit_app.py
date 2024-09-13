@@ -8,7 +8,7 @@ st.set_page_config(page_title="PropHunter by BettingIsCool", page_icon="🍀", l
 import db_oddsapi as db
 from datetime import datetime
 
-from config import TEXT_LANDING_PAGE
+from config import TEXT_LANDING_PAGE, TEXT_BEST_PRACTICE
 
 placeholder1 = st.empty()
 placeholder1.markdown(TEXT_LANDING_PAGE)
@@ -79,4 +79,6 @@ if selected_leagues != '()':
         styled_df = bets_df.style.applymap(color_cells, subset=['VALUE']).applymap(highlight_outdated_odds, subset=['LAST_UPDATE']).format({'LINE': '{:g}'.format, 'ODDS': '{:,.3f}'.format, 'REF_ODDS': '{:,.3f}'.format, 'FAIR_ODDS': '{:,.3f}'.format, 'VALUE': '{:,.2%}'.format})
         
         if len(bets_df) > 0:
-          st.write(styled_df) 
+          st.write(styled_df)
+
+          st.markdown(TEXT_LANDING_PAGE)
