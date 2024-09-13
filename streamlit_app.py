@@ -81,4 +81,4 @@ if selected_leagues != '()':
         if len(bets_df) > 0:
           st.write(styled_df)
 
-          st.markdown(TEXT_LANDING_PAGE)
+          st.markdown(TEXT_BEST_PRACTICE)
