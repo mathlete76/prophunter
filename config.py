@@ -50,7 +50,7 @@ TEXT_BEST_PRACTICE = """
 
 👉 Timing the bets is not that big of an issue really. I personally check the dashboard multiple times a day and fire the bets in. I tend to check MLB/NBA/NHL games more often closer to kickoff, but place NFL bets throughout the weekend even a couple of days before kickoff.
 
-👉 I recommend registering your bets over at betstamp.app (I don't have a deal with them just in case you are wondering). You can follow your bets with live updates and it really makes for a great user experience especially on a busy day with multiple bets on the line.
+👉 I recommend registering your bets at https://betstamp.app (I don't have a deal with them just in case you are wondering). You can follow your bets with live updates and it really makes for a great user experience especially on a busy day with multiple bets on the line.
 
 👉 If your book of choice is not listed then there are many mirror sites (clones) that you could reference, i.e. unibet has the same odds as 888/mgreen/leovegas. From what I know ceasars (us) has the same odds as william hill, etc. so it's often just about finding out which US/EU/UK books are using the same odds.
 
