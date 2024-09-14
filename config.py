@@ -4,7 +4,7 @@ TABLE_BETS = 'prophunter'
 # Display text om landing page
 TEXT_LANDING_PAGE = """
 
-### YOUR DAILY DOSE OF PROP BETS FOR NFL, NBA, NHL, MLB, NCAAF, NCAAB 🏈🏀🏒⚾️
+### YOUR DAILY DOSE OF PROP BETS FOR NFL, NBA, NHL, MLB 🏈🏀🏒⚾️
 
 ⭐️ All bets listed in an easy-to-consume dashboard.
 
