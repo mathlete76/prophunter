@@ -55,7 +55,8 @@ selected_leagues = f"({','.join(selected_leagues)})"
 
 if selected_leagues != '()':
 
-  unique_regions = db.get_regions()
+  #unique_regions = db.get_regions()
+  unique_regions = ['NFL', 'NBA', 'NHL', 'MLB']
   selected_regions = st.sidebar.multiselect(label='Regions', options=sorted(unique_regions), default=unique_regions)
   selected_regions = [f"'{s}'" for s in selected_regions]
   selected_regions = f"({','.join(selected_regions)})"
