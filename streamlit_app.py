@@ -48,15 +48,14 @@ st.button('Refresh Table', on_click=refresh_table)
 
 min_val = st.sidebar.slider(label='Min Value Percentage', min_value=0.00, max_value=25.0, value=2.5, step=0.5)
 
-unique_leagues = db.get_leagues()
+unique_leagues = ['NFL', 'NBA', 'NHL', 'MLB']
 selected_leagues = st.sidebar.multiselect(label='Leagues', options=sorted(unique_leagues), default=unique_leagues)
 selected_leagues = [f"'{s}'" for s in selected_leagues]
 selected_leagues = f"({','.join(selected_leagues)})"
 
 if selected_leagues != '()':
 
-  #unique_regions = db.get_regions()
-  unique_regions = ['NFL', 'NBA', 'NHL', 'MLB']
+  unique_regions = db.get_regions()
   selected_regions = st.sidebar.multiselect(label='Regions', options=sorted(unique_regions), default=unique_regions)
   selected_regions = [f"'{s}'" for s in selected_regions]
   selected_regions = f"({','.join(selected_regions)})"
